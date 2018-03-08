@@ -38,7 +38,9 @@ function getChannelVideos(channel_id, videos, pageToken, apiKey, callback) {
                  */
 
                 asyncLoop(body.items, function(item, next) {
-                    video_ids.push(item.id.videoId)
+                    if (item) {
+                        video_ids.push(item.id.videoId)
+                    }
                     next()
                 }, function(err) {
                     if (err) reject(err)
