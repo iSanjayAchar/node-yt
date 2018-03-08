@@ -1,6 +1,6 @@
 {
   "name": "node-yt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node module that gives you a list of videos uploaded by a channel",
   "main": "script.js",
   "scripts": {
