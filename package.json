@@ -1,5 +1,5 @@
 {
-  "name": "yt-channel-videos",
+  "name": "node-yt",
   "version": "1.0.0",
   "description": "node module that gives you a list of videos uploaded by a channel",
   "main": "script.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iSanjayAchar/yt-channel-videos.git"
+    "url": "git+https://github.com/iSanjayAchar/node-yt.git"
   },
   "keywords": [
     "youtube",
@@ -19,9 +19,9 @@
   "author": "iSanjayAchar <sanjaychar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iSanjayAchar/yt-channel-videos/issues"
+    "url": "https://github.com/iSanjayAchar/node-yt/issues"
   },
-  "homepage": "https://github.com/iSanjayAchar/yt-channel-videos#readme",
+  "homepage": "https://github.com/iSanjayAchar/node-yt#readme",
   "dependencies": {
     "node-async-loop": "^1.2.2",
     "request": "^2.83.0"
