@@ -81,7 +81,7 @@ function getVideoDetails(video_ids, apiKey) {
             method: 'GET',
             url: 'https://www.googleapis.com/youtube/v3/videos',
             qs: {
-                part: 'snippet,contentDetails,statistics',
+                part: 'snippet',
                 id: video_ids.join(),
                 key: apiKey
             }
